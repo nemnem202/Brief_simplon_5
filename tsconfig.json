@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "moduleResolution": "node",
+    "outDir": "dist", // 👉 c’est ici que les JS compilés vont aller
+    "rootDir": "src", // 👉 ton dossier source
+    "noEmit": false, // ❌ enlève ça ou mets "false"
+    "allowImportingTsExtensions": false,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "skipLibCheck": true
+    // ... le reste
+  },
+  "include": ["src"]
+}
