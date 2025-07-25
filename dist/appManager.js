@@ -1,4 +1,4 @@
-import { pagesItems } from "./data/data";
+import { pagesItems } from "./data/data.js";
 export class AppManager {
     static _instance;
     clientInformations;
