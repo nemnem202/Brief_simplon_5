@@ -1,2 +1,2 @@
-import { AppManager } from "./appManager.js";
+import { AppManager } from "./appManager";
 AppManager.getInstance();

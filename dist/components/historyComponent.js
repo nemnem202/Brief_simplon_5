@@ -1,7 +1,7 @@
 import { AppManager } from "../appManager.js";
 import { Component } from "../lib/component.js";
 import createButton from "../utils/button.js";
-import { travelCardComponent } from "./travelCardComponent.js";
+import { travelCardComponent } from "./travelCardComponent";
 import historyTemplate from "../componentsTemplates/historyComponent.js";
 export class HistoryComponent extends Component {
     flightInformation;

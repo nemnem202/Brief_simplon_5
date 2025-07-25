@@ -1,6 +1,6 @@
 import { Component } from "../lib/component.js";
 import { AppManager } from "../appManager.js";
-import homeTemplate from "../componentsTemplates/homeComponent.js";
+import homeTemplate from "../componentsTemplates/homeComponent";
 
 export class HomeComponent extends Component {
   constructor() {
