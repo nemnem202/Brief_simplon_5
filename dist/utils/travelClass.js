@@ -1,4 +1,4 @@
-import { standing } from "../data/data";
+import { standing } from "../data/data.js";
 export class TravelClass {
     getPrice(distance) {
         return this.pricePerKm * distance;

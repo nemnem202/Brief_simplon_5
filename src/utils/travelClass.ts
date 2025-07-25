@@ -1,5 +1,5 @@
-import type { StandingValue } from "../data/Types";
-import { standing } from "../data/data";
+import type { StandingValue } from "../data/Types.js";
+import { standing } from "../data/data.js";
 
 export abstract class TravelClass {
   abstract value: StandingValue;

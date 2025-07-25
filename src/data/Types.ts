@@ -1,4 +1,4 @@
-import type { Component } from "../lib/component";
+import type { Component } from "../lib/component.js";
 
 export type CityLabel =
   | "Paris"

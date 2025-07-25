@@ -1,8 +1,8 @@
-import { FormComponent } from "../components/formComponent";
-import { HomeComponent } from "../components/homeComponent";
-import { HistoryComponent } from "../components/historyComponent";
-import { NotFoundComponent } from "../components/notFoundComponent";
-import { PaymentComponent } from "../components/PaymentComponent";
+import { FormComponent } from "../components/formComponent.js";
+import { HomeComponent } from "../components/homeComponent.js";
+import { HistoryComponent } from "../components/historyComponent.js";
+import { NotFoundComponent } from "../components/notFoundComponent.js";
+import { PaymentComponent } from "../components/PaymentComponent.js";
 export const destinations = [
     { label: "Paris", value: "paris", distanceFromParis: 0 },
     { label: "Londres", value: "london", distanceFromParis: 340 },

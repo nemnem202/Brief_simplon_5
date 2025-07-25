@@ -1,4 +1,4 @@
-import { pagesItems } from "./data/data";
+import { pagesItems } from "./data/data.js";
 import type {
   ClientInformations,
   FlightInformation,

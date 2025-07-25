@@ -1,5 +1,5 @@
 import { Component } from "../lib/component.js";
-import type { ClientInformations, FlightInformation } from "../data/Types";
+import type { ClientInformations, FlightInformation } from "../data/Types.js";
 import { standing } from "../data/data.js";
 import travelCardTemplate from "../componentsTemplates/travelCardComponent.js";
 
